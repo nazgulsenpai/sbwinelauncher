@@ -1,4 +1,6 @@
-import os
+#!/usr/bin/env python3
+
+import os, sys
 code = ""
 sbcmd = '/connetip:178.33.228.149 /connetport:10001 /clientauthcode:^ /clientauthid:25c883fec75407f3de4fa05330ac302c'
 loggedIn = False
@@ -28,7 +30,7 @@ def launch(sbcmd,code):
     f.close()
     f = None
     os.system("chmod +x sblaunch.sh")
-    os.system("sblaunch.sh")
+    os.system("./sblaunch.sh")
 print("\nScarlet Blade Vendetta Linux Launcher\n")
 print("---------------------------------------\n")
 while loggedIn == False:
