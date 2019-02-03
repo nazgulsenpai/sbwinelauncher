@@ -21,7 +21,7 @@ def login(username,password,code):
 
 def launch(sbcmd,code):        
     print("Patching XignCode loader...")
-    os.system('wget https://github.com/nazgulsenpai/sbxigncode/blob/master/Debug/x3.xem?raw=true')
+    os.system('wget https://github.com/nazgulsenpai/sblinuxlauncher/blob/master/x3.xem?raw=true')
     os.system('mv x3.xem?raw=true ./xigncode/x3.xem -f')
     f = open('sblaunch.sh','w')
     f.write('wine sb.exe ' + sbcmd.replace("^",code))
