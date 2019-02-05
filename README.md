@@ -3,6 +3,8 @@ Launcher for logging in and booting Scarlet Blade Vendetta on WINE using Linux o
 
 Tested on WINE 4.0 on Mint 19 and works flawlessly.  
 ![Screenshot](https://github.com/nazgulsenpai/sblinuxlauncher/raw/master/sbv_on_mint.png)
+
+MacOS Sierra on Mac Mini (2011)
 ![Screenshot](https://github.com/nazgulsenpai/sblinuxlauncher/raw/master/sbv_on_macos_sierra.png)
 
 # 1) Install WINE (tested 4.0)
