@@ -1,5 +1,5 @@
 # Scarlet Blade Vendetta WINE Launcher for Linux or MacOS
-Launcher for logging in and booting Scarlet Blade Vendetta on WINE using Linux or MacOS. The script logs in through HTTP (like the official launcher), automatically patches XignCode with sbxigncode (code found https://github.com/nazgulsenpai/sbxigncode) with a x3.xem built to be compatible with WINE.
+Python script for logging in and booting Scarlet Blade Vendetta on WINE using Linux or MacOS. The script logs in through HTTP (like the official launcher), automatically patches XignCode with sbxigncode (code found https://github.com/nazgulsenpai/sbxigncode) with a x3.xem built to be compatible with WINE.
 
 Tested on WINE 4.0 on Mint 19 and works flawlessly.  
 ![Screenshot](https://github.com/nazgulsenpai/sblinuxlauncher/raw/master/sbv_on_mint.png)
